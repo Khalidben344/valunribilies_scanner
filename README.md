@@ -19,12 +19,12 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install python3 python3-pip -y
 pip3 install playwright
 playwright install
-python3 scanner.py
+python3 valunribilies_scanner.py
 
 ||||windows
 pip install playwright
 playwright install
-python scanner.py
+python valunribilies_scanner.py
 
 
 |||termux
@@ -33,4 +33,4 @@ pkg install python
 pip install --upgrade pip
 pip install playwright
 playwright install
-python scanner.py
+python valunribilies_scanner.py
